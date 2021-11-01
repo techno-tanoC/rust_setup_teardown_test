@@ -1,5 +1,5 @@
 [package]
-name = "async_test"
+name = "rust_setup_teardown_test"
 version = "0.1.0"
 edition = "2018"
 

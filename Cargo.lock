@@ -12,15 +12,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "async_test"
-version = "0.1.0"
-dependencies = [
- "futures",
- "pretty_assertions",
- "tokio",
-]
-
-[[package]]
 name = "autocfg"
 version = "1.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -344,6 +335,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8383f39639269cde97d255a32bdb68c047337295414940c68bdd30c2e13203ff"
 dependencies = [
  "bitflags",
+]
+
+[[package]]
+name = "rust_setup_teardown_test"
+version = "0.1.0"
+dependencies = [
+ "futures",
+ "pretty_assertions",
+ "tokio",
 ]
 
 [[package]]
